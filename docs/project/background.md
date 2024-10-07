@@ -4,12 +4,18 @@ Virtually all processes in our cells rely on the proper functioning of macromole
 
 Due to factors such as ageing, genetic mutations, or environmental stressors, proteins can malfunction, leading to detrimental effects. Proteins might be overproduced, misfolded, or become hyperactive, contributing to cellular dysfunction and disease. This dysregulation of protein activity is a growing concern, as it underlies many serious health issues. We can illustrate this with two prominent examples: hepatic diseases, like non-alcoholic fatty liver disease (NAFLD), and neurodegenerative diseases, such as Alzheimer's and Parkinson's. Both conditions are increasingly prevalent and represent a major health burden worldwide, largely due to the accumulation or overactivity of harmful proteins that disrupt normal cellular processes.
 
+### Hepatic diseases 
+In recent decades, growing global wealth and improved food availability have led to increased consumption of calorie-dense, highly processed foods. This shift in dietary habits, combined with a decrease in physical activity due to more urbanised, sedentary lifestyles, has contributed to rising rates of obesity and metabolic disorders. 
+
 
 <figure markdown>
-![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig1.png)
+![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig1.jpeg)
 <figcaption> Global trends in obesity, categorised by region for both men and women. The graphs illustrate the rising number of obese and severely obese individuals over time, with notable increases across various regions [^figure_1].
 </figcaption>
 </figure>
+
+Currently, more than 1.9 billion adults are overweight, with 650 million classified as obese. Obesity is a major risk factor for both type 2 diabetes (T2D) and non-alcoholic fatty liver disease (NAFLD), with an estimated 77.87% of obese individuals developing NAFLD.(Dharmalingam, M., & Yamasandhi, P. G. (2018). Nonalcoholic Fatty Liver Disease and Type 2 Diabetes Mellitus. Indian Journal of Endocrinology and Metabolism, 22(3), 421–428. https://doi.org/10.4103/ijem.IJEM_585_17). Globally, NAFLD has and estimated prevalence of 30%, making it one of the most common liver disorders worldwide.  (Younossi, Z. M., Golabi, P., Paik, J. M., Henry, A., Van Dongen, C., & Henry, L. (2023). The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. Hepatology (Baltimore, Md.), 77(4), 1335–1347. https://doi.org/10.1097/HEP.0000000000000004)
+
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig2.png)
@@ -17,11 +23,26 @@ Due to factors such as ageing, genetic mutations, or environmental stressors, pr
 </figcaption>
 </figure>
 
+NAFLD progresses through several stages, potentially leading to hepatocellular carcinoma (HCC). In the first stage of NAFLD, known as simple fatty liver (steatosis), fat accumulates in liver cells without causing harm. This stage is usually asymptomatic and can be reversed with lifestyle changes. If left untreated, NAFLD may advance to non-alcoholic steatohepatitis (NASH), a more severe form involving liver inflammation and potential cell damage. Persistent NASH can lead to fibrosis, where scar tissue forms around the liver and its vessels, though the liver may still function relatively well. Over time, fibrosis can progress to cirrhosis, which is marked by extensive scarring and impaired liver function, eventually leading to liver failure. In some severe cases, NAFLD can progress to hepatocellular carcinoma (HCC), a form of liver cancer that may arise even in non-cirrhotic patients, though it is more common in those with cirrhosis. Importantly, not all individuals with NAFLD will progress through every stage, and early intervention can prevent or even reverse disease progression.
+
+
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig3.png)
 <figcaption> [^figure_3]
 </figcaption>
 </figure>
+
+
+Targeting NAFLD is crucial due to its widespread prevalence, lack of effective treatments, and increasing economic burden. NAFLD affects around 30% of the global population, yet there are currently no FDA-approved medications specifically for its treatment. Developing new therapies would address this significant treatment gap, potentially improving patient outcomes by preventing disease progression. Effective interventions could also reduce the economic strain associated with managing advanced stages of NAFLD, which require costly care.
+
+### Neurodegenerative diseases
+
+Thanks to medical and technological advancements, we are living longer, but this has led to an increase in neurodegenerative diseases such as Alzheimer's, Huntington's, and Parkinson's. In Switzerland alone, dementia-related diseases incurred costs of 13.74 billion USD in 2017 (Alzheimer's Association, 2019), and globally, the number of cases is expected to rise to 135 million by 2050 (Gammon, K. Neurodegenerative disease: Brain windfall. Nature 515, 299–300 (2014). https://doi.org/10.1038/nj7526-299a). This growing burden highlights the urgent need for innovative and effective solutions. Despite decades of research, most current therapies focus on managing symptoms rather than curing the diseases. For example, traditional pharmacological therapies, like cholinesterase inhibitors for Alzheimer's and dopamine agonists for Parkinson's, aim to manage symptoms without addressing the root causes (Birks et al., 2018; Cummings et al., 2016).
+
+Non-pharmacological interventions—such as rehabilitation, brain stimulation, and cognitive training—can improve quality of life but do not halt disease progression. Promising new approaches include antibody-based therapies, which aim to neutralise disease-associated proteins by promoting their clearance and preventing their aggregation and spread. However, this strategy faces significant challenges. Antibodies are large molecules that struggle to penetrate the blood-brain barrier, meaning they primarily target extracellular protein deposits, leaving the toxic protein accumulations inside cells unaddressed. Given these limitations, there is a pressing need for more innovative approaches that can effectively target the underlying causes of neurodegenerative disease.
+
+
+
 
 
 ## Targeted Protein Degradation presents a promising therapeutic strategy
