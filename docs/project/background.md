@@ -4,6 +4,26 @@ Virtually all processes in our cells rely on the proper functioning of macromole
 
 Due to factors such as ageing, genetic mutations, or environmental stressors, proteins can malfunction, leading to detrimental effects. Proteins might be overproduced, misfolded, or become hyperactive, contributing to cellular dysfunction and disease. This dysregulation of protein activity is a growing concern, as it underlies many serious health issues. We can illustrate this with two prominent examples: hepatic diseases, like non-alcoholic fatty liver disease (NAFLD), and neurodegenerative diseases, such as Alzheimer's and Parkinson's. Both conditions are increasingly prevalent and represent a major health burden worldwide, largely due to the accumulation or overactivity of harmful proteins that disrupt normal cellular processes.
 
+
+<figure markdown>
+![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig1.png)
+<figcaption> Global trends in obesity, categorised by region for both men and women. The graphs illustrate the rising number of obese and severely obese individuals over time, with notable increases across various regions [^figure_1].
+</figcaption>
+</figure>
+
+<figure markdown>
+![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig2.png)
+<figcaption> Global prevalence of NAFLD and its alignment with calorie intake. The horizontal coloured squares indicate energy balance in kilocalories[^figure_2].
+</figcaption>
+</figure>
+
+<figure markdown>
+![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig3.png)
+<figcaption> [^figure_3]
+</figcaption>
+</figure>
+
+
 ## Targeted Protein Degradation presents a promising therapeutic strategy
 
 Cells not only constantly produce proteins, but also continuously break down old, damaged, or unnecessary ones. This protein degradation process is vital for maintaining cellular health and is often centred around ubiquitination—a system where unwanted proteins are tagged with a small molecule called ubiquitin. The presence of ubiquitin signals to the cell’s "garbage disposal" system, the ubiquitin-proteasome system (UPS), to degrade these proteins[^ubi_first].
