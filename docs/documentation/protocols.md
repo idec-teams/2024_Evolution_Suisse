@@ -244,7 +244,7 @@ Set the thermocycler for the following program:
 5. Set up hardware: connect tubing and insert tubes into pump, connect waste and media bottles (see image). Make sure the orientation of the tubing in the pumps is correct.
 
 <figure markdown>
-![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_2.png)
+![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png)
 <figcaption> Set up of the PACE reactor.
 </figcaption>
 </figure>
@@ -257,7 +257,7 @@ Set the thermocycler for the following program:
    * Air: only insert it a bit (highest needle), connect a sterile filter on the outside.
 
 <figure markdown>
-![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png)
+![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_2.png)
 <figcaption> Media and waste tubing in the lagoon of the PACE reactor.
 </figcaption>
 </figure>
