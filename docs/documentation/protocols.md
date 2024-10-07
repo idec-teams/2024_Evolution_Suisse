@@ -48,7 +48,7 @@ Note: Try to use smaller vectors containing fewer inserts as reduced protein exp
 
 ## Gibson Assembly
 1. PCR of all inserts and backbones to create appropriate overhangs 
-2. DpnI Digest: add 0.5 uL of DpnI to 25 uL PCR reaction, incubation 15 min at 37 °C (to remove the template DNA)
+2. DpnI Digest: add 0.5 uL of DpnI to 25 uL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
 3. Gel extraction of the correct PCR products: Follow the protocol of the NucleoSpin Gel and PCR Clean-up kit (Macherey-Nagel)
 4. Mix 50–100 ng of vector DNA with a molar 2:1 or 1:1 ratio of each insert (see table below) 
 5. Add water and NEBuilider HiFi DNA Assembly Master Mix as indicated below
@@ -60,7 +60,7 @@ Note: Try to use smaller vectors containing fewer inserts as reduced protein exp
 | NEBuilider HiFi DNA Assembly Master Mix | 2.5 μl |2.5 μl |
 | ddH2O  | fill up to 5 μl |fill up to 5 μl |
 
-6. Incubate samples in a thermocycler at 50 °C for 60 minutes 
+6. Incubate samples in a thermocycler at 50°C for 60 minutes 
 7. Store samples on ice or at –20°C for subsequent transformation
 
 
@@ -72,14 +72,14 @@ To test our genetically engineered constructs, we transformed them into bacteria
 2. Add 1 μl of plasmid DNA or 5 uL of assembly reaction to 20-50 μl of competent cells
 3. Flick the tube to mix
 4. Incubate mixture on ice for 30 minutes
-5. Heat shock at the bacteria at 42 °C for 30 s
+5. Heat shock at the bacteria at 42°C for 30 s
 6. Place on ice for 5 minutes
 7. Pipette 200 µl of room temperature LB into the mixture
-8. Incubate at 37 °C for 60 minutes while shaking at 750 rpm
-9. Warm selection plates to 37 °C in the incubator
+8. Incubate at 37°C for 60 minutes while shaking at 750 rpm
+9. Warm selection plates to 37°C in the incubator
 10. Spin down bacteria and resuspend in 50 μl LB
 11. Spread 50-100 μl of cells on LB agar plates containing the antibiotics for selection. When multiple antibiotics are used, use 0.6x of the standard working concentration for each antibiotic.
-12. Incubate overnight at 37 °C
+12. Incubate overnight at 37°C
 
 For co-transformations with two accessory plasmids:
 1. Thaw competent S2060 cells on ice
@@ -124,14 +124,14 @@ Day 2: Transformation
 3. Add 2 µl of the ligation reaction into 50 μl of competent S2208 cells
 4. Flick the tube to mix
 5. Incubate mixture on ice for 30 minutes
-6. Heat shock at the bacteria at 42 °C for 30 s
+6. Heat shock at the bacteria at 42°C for 30 s
 7. Place on ice for 5 minutes
 8. Pipette 200 µl of room temperature LB into the mixture
-9. Incubate at 37 °C while shaking at 750 rpm until bacteria reach saturation
-10. Warm selection plates to 37 °C in the incubator
+9. Incubate at 37°C while shaking at 750 rpm until bacteria reach saturation
+10. Warm selection plates to 37°C in the incubator
 11. Spin down bacteria and resuspend in 50 μl LB
 12. Spread 50-100 μl of cells on LB agar plates 
-13. Incubate overnight at 37 °C
+13. Incubate overnight at 37°C
 
 Day 3: Plaque Assay to determine phage titer
 
