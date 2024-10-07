@@ -14,7 +14,7 @@ In recent decades, growing global wealth and improved food availability have led
 </figcaption>
 </figure>
 
-Currently, more than 1.9 billion adults are overweight, with 650 million classified as obese. Obesity is a major risk factor for both type 2 diabetes (T2D) and non-alcoholic fatty liver disease (NAFLD), with an estimated 77.87% of obese individuals developing NAFLD.(Dharmalingam, M., & Yamasandhi, P. G. (2018). Nonalcoholic Fatty Liver Disease and Type 2 Diabetes Mellitus. Indian Journal of Endocrinology and Metabolism, 22(3), 421–428. https://doi.org/10.4103/ijem.IJEM_585_17). Globally, NAFLD has and estimated prevalence of 30%, making it one of the most common liver disorders worldwide.  (Younossi, Z. M., Golabi, P., Paik, J. M., Henry, A., Van Dongen, C., & Henry, L. (2023). The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. Hepatology (Baltimore, Md.), 77(4), 1335–1347. https://doi.org/10.1097/HEP.0000000000000004)
+Currently, more than 1.9 billion adults are overweight, with 650 million classified as obese. Obesity is a major risk factor for both type 2 diabetes (T2D) and non-alcoholic fatty liver disease (NAFLD), with an estimated 77.87% of obese individuals developing NAFLD[^hepatic_1]. Globally, NAFLD has and estimated prevalence of 30%, making it one of the most common liver disorders worldwide[^hepatic_2].
 
 
 <figure markdown>
@@ -23,7 +23,7 @@ Currently, more than 1.9 billion adults are overweight, with 650 million classif
 </figcaption>
 </figure>
 
-NAFLD progresses through several stages, potentially leading to hepatocellular carcinoma (HCC). In the first stage of NAFLD, known as simple fatty liver (steatosis), fat accumulates in liver cells without causing harm. This stage is usually asymptomatic and can be reversed with lifestyle changes. If left untreated, NAFLD may advance to non-alcoholic steatohepatitis (NASH), a more severe form involving liver inflammation and potential cell damage. Persistent NASH can lead to fibrosis, where scar tissue forms around the liver and its vessels, though the liver may still function relatively well. Over time, fibrosis can progress to cirrhosis, which is marked by extensive scarring and impaired liver function, eventually leading to liver failure. In some severe cases, NAFLD can progress to hepatocellular carcinoma (HCC), a form of liver cancer that may arise even in non-cirrhotic patients, though it is more common in those with cirrhosis. Importantly, not all individuals with NAFLD will progress through every stage, and early intervention can prevent or even reverse disease progression.
+NAFLD progresses through several stages, potentially leading to hepatocellular carcinoma (HCC)[^figure_3]. In the first stage of NAFLD, known as simple fatty liver (steatosis), fat accumulates in liver cells without causing harm. This stage is usually asymptomatic and can be reversed with lifestyle changes. If left untreated, NAFLD may advance to non-alcoholic steatohepatitis (NASH), a more severe form involving liver inflammation and potential cell damage. Persistent NASH can lead to fibrosis, where scar tissue forms around the liver and its vessels, though the liver may still function relatively well. Over time, fibrosis can progress to cirrhosis, which is marked by extensive scarring and impaired liver function, eventually leading to liver failure. In some severe cases, NAFLD can progress to hepatocellular carcinoma (HCC), a form of liver cancer that may arise even in non-cirrhotic patients, though it is more common in those with cirrhosis. Importantly, not all individuals with NAFLD will progress through every stage, and early intervention can prevent or even reverse disease progression.
 
 
 <figure markdown>
@@ -74,6 +74,9 @@ Sometimes, the activity of the biomolecule we're evolving is too weak, resulting
 
 ## References
 [^figure_1]:Trends in adult body-mass index in 200 countries from 1975 to 2014: a pooled analysis of 1698 population-based measurement studies with 19·2 million participants. The Lancet. 2016;387: 1377–1396. doi:10.1016/S0140-6736(16)30054-X
+[^hepatic_1]: Dharmalingam M, Yamasandhi Pg. Nonalcoholic fatty liver disease and Type 2 diabetes mellitus. Indian J Endocr Metab. 2018;22: 421. doi:10.4103/ijem.IJEM_585_17
+[^hepatic_2]:Younossi ZM, Golabi P, Paik JM, Henry A, Van Dongen C, Henry L. The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. Hepatology. 2023;77: 1335–1347. doi:10.1097/HEP.0000000000000004
+
 [^figure_2]:Agbim U, Carr RM, Pickett-Blakely O, Dagogo-Jack S. Ethnic Disparities in Adiposity: Focus on Non-alcoholic Fatty Liver Disease, Visceral, and Generalized Obesity. Curr Obes Rep. 2019;8: 243–254. doi:10.1007/s13679-019-00349-x
 [^figure_3]:Guo X, Yin X, Liu Z, Wang J. Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis and Natural Products for Prevention and Treatment. IJMS. 2022;23: 15489. doi:10.3390/ijms232415489
 
