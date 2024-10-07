@@ -9,7 +9,7 @@
 
 
 ## Golden Gate Cloning
-Golden Gate constructs were assembled using the EcoFlex MoClo kit[^1] (Addgene kit #1000000080). This kit comes with level 0,1, and 2 backbones (see publication for more details).
+Golden Gate constructs were assembled using the EcoFlex MoClo kit[^1] (Addgene kit #1000000080). This kit comes with level 1 and 2 backbones (see publication for more details).
 
 1. Add the following to a PCR tube (use BsaI for level 1 and BsmBI for level 2 assemblies):
 
@@ -47,8 +47,8 @@ Level 2 / BsmBI
 Note: Try to use smaller vectors containing fewer inserts as reduced protein expression demands may exhibit higher transformation efficiency due to the reduced size and lower metabolic load on the cells.
 
 ## Gibson Assembly
-1. PCR of all inserts & backbones to create appropriate overhangs, 
-2. DpnI Digest: add 0.5 uL of DpnI to 25 uL PCR reaction, incubation 15 min at 37°C ( to remove the template DNA)
+1. PCR of all inserts and backbones to create appropriate overhangs 
+2. DpnI Digest: add 0.5 uL of DpnI to 25 uL PCR reaction, incubation 15 min at 37 °C (to remove the template DNA)
 3. Gel extraction of the correct PCR products: Follow the protocol of the NucleoSpin Gel and PCR Clean-up kit (Macherey-Nagel)
 4. Mix 50–100 ng of vector DNA with a molar 2:1 or 1:1 ratio of each insert (see table below) 
 5. Add water and NEBuilider HiFi DNA Assembly Master Mix as indicated below
@@ -60,8 +60,8 @@ Note: Try to use smaller vectors containing fewer inserts as reduced protein exp
 | NEBuilider HiFi DNA Assembly Master Mix | 2.5 μl |2.5 μl |
 | ddH2O  | fill up to 5 μl |fill up to 5 μl |
 
-Incubate samples in a thermocycler at 50°C for 60 minutes 
-Store samples on ice or at –20°C for subsequent transformation
+6. Incubate samples in a thermocycler at 50 °C for 60 minutes 
+7. Store samples on ice or at –20°C for subsequent transformation
 
 
 
@@ -75,7 +75,7 @@ To test our genetically engineered constructs, we transformed them into bacteria
 5. Heat shock at the bacteria at 42 °C for 30 s
 6. Place on ice for 5 minutes
 7. Pipette 200 µl of room temperature LB into the mixture
-8. Incubate at 37°C for 60 minutes while shaking at 750 rpm
+8. Incubate at 37 °C for 60 minutes while shaking at 750 rpm
 9. Warm selection plates to 37 °C in the incubator
 10. Spin down bacteria and resuspend in 50 μl LB
 11. Spread 50-100 μl of cells on LB agar plates containing the antibiotics for selection. When multiple antibiotics are used, use 0.6x of the standard working concentration for each antibiotic.
@@ -83,7 +83,7 @@ To test our genetically engineered constructs, we transformed them into bacteria
 
 For co-transformations with two accessory plasmids:
 1. Thaw competent S2060 cells on ice
-2. pre-mix 200 ng of the two accessory plasmids in an equimolar ratio
+2. Pre-mix 200 ng of the two accessory plasmids in an equimolar ratio
 3. Add 50 μl of competent cells
 4. Continue at step 3 above
 
@@ -99,7 +99,7 @@ Assemble a plasmid containing all phage genes: the selection plasmid, _splitC_ (
 
 | Reagent  | Amount |
 | ------------- | ------------- |
-| selection plasmid  | 200 ng  |
+| Selection plasmid  | 200 ng  |
 | _SplitC_  | 100 ng |
 | _SplitD_  | 100 ng |
 | 10 × T4 ligase buffer  | 1 μl |
@@ -127,24 +127,24 @@ Day 2: Transformation
 6. Heat shock at the bacteria at 42 °C for 30 s
 7. Place on ice for 5 minutes
 8. Pipette 200 µl of room temperature LB into the mixture
-9. Incubate at 37°C while shaking at 750 rpm until bacteria reach saturation
-10 Warm selection plates to 37 °C in the incubator
+9. Incubate at 37 °C while shaking at 750 rpm until bacteria reach saturation
+10. Warm selection plates to 37 °C in the incubator
 11. Spin down bacteria and resuspend in 50 μl LB
-12. Spread 50-100 μl of cells on LB agar plates (which antibiotic)?
+12. Spread 50-100 μl of cells on LB agar plates 
 13. Incubate overnight at 37 °C
 
 Day 3: Plaque Assay to determine phage titer
 
-1. Spin down 2 mL (9000 g, 1 min)
+1. Spin down 2 mL (9000 xg, 1 min)
 2. Transfer supernatant to a new tube and sterilise with a 0.22 µm filter
 3. Send purified phages for Sanger sequencing with the primer oLS670
 4. Determine the phage titer with a plaque assay as described below
 5. Phages can be stored in the fridge for multiple months. If titer gets to low, re-grow in S2208 bacteria again
 
-Note: it makes sense to do 2 plaque assays. The first assay is to determine if phages are produced and to estimate their amount in plaque forming units (pfu). From the first assay plate, one plaque is picked to get monoclonal phages and a second assay is performed to asses the pfu.
+Note: it makes sense to do 2 plaque assays. The first assay is to determine if the phage production was succesful. From the first assay plate, one plaque is picked to get monoclonal phages and a second assay is performed to asses the PFU.
 
 ## Determination of phage titer by plaque assay
-1. Spin down your samples at 8’000 xg for 2 min to remove bacteria and other contaminants
+1. Spin down your samples at 8'000 xg for 2 min to remove bacteria and other contaminants
 2. Transfer supernatant to a new tube. Phages can be stored at 4ºC for further use (note that phage titer will gradually decrease over time)
 3. Dilute a saturated S2208 culture and grow it to an OD<sub>600</sub> of 0.5
 4. Pour 15 mL LB agar without antibiotics in a Petri dish and let solidify
@@ -157,7 +157,7 @@ Note: it makes sense to do 2 plaque assays. The first assay is to determine if p
 titer (in pfu/mL) = (# of plaques) x (dilution factor) x 100 
 
 ## Determination of phage titer by qPCR
-1. Spin down your samples at 8’000 xg for 2 min to remove bacteria and other contaminants
+1. Spin down your samples at 8'000 xg for 2 min to remove bacteria and other contaminants
 2. Transfer supernatant to a new tube. Phages can be stored at 4ºC for further use (note that phage titer will gradually decrease over time)
 3. Prepare the qPCR reaction mix as follows:
 
