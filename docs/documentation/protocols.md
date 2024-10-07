@@ -242,13 +242,26 @@ Set the thermocycler for the following program:
 3. Important: Work in sterile conditions when assembling the reactor to avoid contaminations. All components should be either autoclaved or sterile already.
 4. Add antibiotics/inducers etc. to media bottle
 5. Set up hardware: connect tubing and insert tubes into pump, connect waste and media bottles (see image). Make sure the orientation of the tubing in the pumps is correct.
-   IMAGE: PACE_protocol_1.png somewhere here
+
+<figure markdown>
+![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_2.png)
+<figcaption> Set up of the PACE reactor.
+</figcaption>
+</figure>
+
+   
 7. Prepare glass bottle for chemostat (transfer 30 mL of liquid culture grown the day before). Mark the liquid level with a pen on the bottle.
 8. Insert the three needles in the lagoon
    * Waste: insert it at the edge. It should touch the liquid surface and put it against the glass wall
    * Fresh media: should be inserted at the centre, higher than the waste needle
    * Air: only insert it a bit (highest needle), connect a sterile filter on the outside.
-    IMAGE: PACE_protocol_2.png somewhere here
+
+<figure markdown>
+![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png)
+<figcaption> Media and waste tubing in the lagoon of the PACE reactor.
+</figcaption>
+</figure>
+   
 9. Run Chemostat until the correct OD is reached. (e.g. overnight)
 10. Set up lagoon:
     * add phages (the titer should be around Cp25).
