@@ -4,7 +4,7 @@ hide:
 ---
 
 
-# Developing novel Targeted Protein Pegradation strategies using Directed Evolution
+# Developing novel Targeted Protein Degradation strategies using Directed Evolution
 
 ## The Challenge
 
