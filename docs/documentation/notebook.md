@@ -1,4 +1,4 @@
-# Lab notebooks
+# Lab notebook
 
 ## May
 + Lab introduction
