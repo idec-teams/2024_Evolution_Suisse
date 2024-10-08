@@ -19,10 +19,11 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 
 ## Our Workflow
 1. Identification of reprogrammable E3 ligases and clinically relevant protein targets.
-2. Construction of a E3-ligase activity driven Phage-Assisted Continous Evolution (PACE) system
-3. Evolution of the E3 ligase towards recognising clinically relevant protein targets
-4. Confirmation of evolved E3 activity in bacterial systems and mammalian cell lines
-5. Further work towards clinical use of the evolved E3 ligase for Targeted Protein Degradation.
+2. Construct selection system and test different promoters, linkers, substrates, among other things.
+3. Achieve E3 ligase activity dependent phage propagation in the selection system.
+4. Evolution of the E3 ligase towards recognising clinically relevant protein targets using Phage-Assisted Continous Evolution (PACE).
+5. Confirmation of evolved E3 activity in bacterial system and mammalian cell lines.
+6. Further work towards clinical use of the evolved E3 ligase for Targeted Protein Degradation.
 
 ## Key achievements:
 
