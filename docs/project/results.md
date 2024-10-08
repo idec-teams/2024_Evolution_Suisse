@@ -17,7 +17,7 @@ The SIAH family recognizes its targets through a PXAXVXP degron motif [^E3_7], w
 The selection of canonical SIAH1/2 targets, needed to test the evolution logic, was performed based on the following criteria:
 
 1. The canonical substrate should be mainly cytoplasmic and not inserted or localised near the plasma membrane or in other cell organelles.
-2. The canonical Substrate should not natively form di- or other multi-mers as this could interfere with the selection system by tying two or more C-terminal RNAP subunits together.
+2. The canonical substrate should not natively form di- or other multi-mers as this could interfere with the selection system by tying two or more C-terminal RNAP subunits together.
 3. Post-translational modifications (PTMs) on the canonical substrate should not be necessary for its ubiquitination, as we cannot specifically control PTMs of substrates.
 4. The size of the canonical substrate should not exceed 300 amino acids in size, as this could also compromise our synthetic evolutionary system
 5. The structure of the protein and interaction with the selected E3 ligase (SIAH1/2) should be characterised.
