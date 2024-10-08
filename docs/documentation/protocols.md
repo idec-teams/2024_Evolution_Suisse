@@ -48,7 +48,7 @@ Note: Try to use smaller vectors containing fewer inserts as reduced protein exp
 
 ## Gibson Assembly
 1. PCR of all inserts and backbones to create appropriate overhangs 
-2. DpnI Digest: add 0.5 uL of DpnI to 25 uL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
+2. DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)
 3. Gel extraction of the correct PCR products: Follow the protocol of the NucleoSpin Gel and PCR Clean-up kit (Macherey-Nagel)
 4. Mix 50–100 ng of vector DNA with a molar 2:1 or 1:1 ratio of each insert (see table below) 
 5. Add water and NEBuilider HiFi DNA Assembly Master Mix as indicated below
@@ -69,7 +69,7 @@ Note: Try to use smaller vectors containing fewer inserts as reduced protein exp
 To test our genetically engineered constructs, we transformed them into bacteria. For single plasmid transformation, _E. coli_ cells were made chemically competent using the Mix & Go _E. coli_ Transformation Kit & Buffer Set (Zymo Research), following the manufacturer's protocol.
 
 1. Thaw competent DH5a on ice
-2. Add 1 μl of plasmid DNA or 5 uL of assembly reaction to 20-50 μl of competent cells
+2. Add 1 μl of plasmid DNA or 5 μL of assembly reaction to 20-50 μl of competent cells
 3. Flick the tube to mix
 4. Incubate mixture on ice for 30 minutes
 5. Heat shock at the bacteria at 42°C for 30 s
@@ -93,7 +93,8 @@ Due to the metabolic burden caused by DNA replication and protein expression, co
 
 The production of our phages started by assembling a plasmid containing all phage genes. Our selection plasmid, containing either SIAH1/2 or unspecific enzymes but lacking essential genes for phage replication was combined with _splitC_ (Addgene #138523) and _splitD_ (Addgene #138521) plasmids using SapI Golden Gate assembly.
 
-Day 1: Golden Gate assembly
+_Day 1: Golden Gate assembly_
+
 Assemble a plasmid containing all phage genes: the selection plasmid, _splitC_ (Addgene #138523) and _splitD_ (Addgene #138521) by mixing the following components in a PCR tube
 
 
@@ -117,7 +118,7 @@ Incubate in the thermocycler overnight with the following program:
 | Final digestion  | 1  |37 |1h min  |
 | Enzyme inactivation | 1   |80 |15 min  |
 
-Day 2: Transformation
+_Day 2: Transformation_
 
 1. Transform the assembly reaction as explained above
 2. Thaw competent S2060 cells on ice
@@ -133,7 +134,7 @@ Day 2: Transformation
 12. Spread 50-100 μl of cells on LB agar plates 
 13. Incubate overnight at 37°C
 
-Day 3: Plaque Assay to determine phage titer
+_Day 3: Plaque Assay to determine phage titer_
 
 1. Spin down 2 mL (9000 xg, 1 min)
 2. Transfer supernatant to a new tube and sterilise with a 0.22 µm filter
@@ -141,7 +142,7 @@ Day 3: Plaque Assay to determine phage titer
 4. Determine the phage titer with a plaque assay as described below
 5. Phages can be stored in the fridge for multiple months. If titer gets to low, re-grow in S2208 bacteria again
 
-Note: it makes sense to do 2 plaque assays. The first assay is to determine if the phage production was succesful. From the first assay plate, one plaque is picked to get monoclonal phages and a second assay is performed to asses the PFU.
+Note: it is recommended to do 2 plaque assays. The first assay is to determine if the phage production was succesful. From the first assay plate, one plaque is picked to get monoclonal phages and a second assay is performed to assess the PFU.
 
 ## Determination of phage titer by plaque assay
 1. Spin down your samples at 8'000 xg for 2 min to remove bacteria and other contaminants
@@ -169,7 +170,7 @@ titer (in pfu/mL) = (# of plaques) x (dilution factor) x 100
 | 100 uM Reverse Primer*| 0.05 |
 | ddH2O  | 9.9 |
 
-*oLS-1662 100 uM and oLS-1663 were used as forward and reverse primers respectively see [Supplementary Table 4](https://idec-teams.github.io/2024_Evolution_Suisse/files/supplement.pdf) for sequences.
+*oLS-1662 100 uM and oLS-1663 were used as forward and reverse primers respectively, see [Supplementary Table 4](https://idec-teams.github.io/2024_Evolution_Suisse/files/supplement.pdf) for sequences.
 
 4. In a qPCR 384-well plate, add 13 µL of qPCR reaction mix to each well, followed by 2 µL of the supernatant of each sample. Perform triplicate measurements for better results
 5. Cover the plate with an adhesive seal and briefly spin down the plate 
@@ -185,7 +186,7 @@ titer (in pfu/mL) = (# of plaques) x (dilution factor) x 100
 
 7. Set the excitation wavelength to 465 nm and the detection wavelength to 510 nm and start the protocol
 8. Analyse readout with the software analysis tool “Absolute Quantification/Second Derivative Maximum”
-9. Threshold cycle (CT) values, which indicate the cycle number at which the fluorescence from the amplifying DNA exceeded a predefined threshold, can be converted to PFU/mL using previously constructed standard curved. qPCR results with CT > 30 can be considered as absence of phages
+9. Threshold cycle (CT) values, which indicate the cycle number at which the fluorescence from the amplifying DNA exceeded a predefined threshold, can be converted to PFU/mL using a previously constructed standard curved. qPCR results with CT > 30 can be considered as absence of phages
 
 ## Site-directed mutagenesis for substrate degron modification
 1. Prepare a reaction mix in a PCR tube as indicated here (see Report for the corresponding primers):
@@ -264,7 +265,7 @@ Set the thermocycler for the following program:
    
 9. Run Chemostat until the correct OD is reached. (e.g. overnight)
 10. Set up lagoon:
-    * add phages (the titer should be around Cp25).
+    * add phages (the titer should be around CT = 25).
     * Connect lagoon to chemostat: Tubing to and from lagoon, Lagoon waste
 11. Insert the three needles in the chemostat and one in the lagoon
     * Tubing from chemostat to lagoon: The needle in the chemostat should be inserted all the way (lowest needle) to ensure that there are always bacteria flowing to the reactor whereas the needle in the lagoon should not touch the liquid surface.
