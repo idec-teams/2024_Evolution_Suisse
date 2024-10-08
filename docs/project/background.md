@@ -13,7 +13,7 @@ In recent decades, growing global wealth and improved food availability have led
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig1.jpeg)
-<figcaption> Global trends in obesity, categorised by region for both men and women.  [^figure_1].
+<figcaption> Figure 1: Global trends in obesity, categorised by region for both men and women.  [^figure_1].
 </figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ NAFLD progresses through several stages, potentially leading to hepatocellular c
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig3.png)
-<figcaption> Progression of non-alcoholic fatty liver disease (NAFLD). [^figure_2]
+<figcaption> Figure 2: Progression of non-alcoholic fatty liver disease (NAFLD). [^figure_2]
 </figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Thanks to medical and technological advancements, we are living longer, but this
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/AlzheimersMap_sv2.gif)
-<figcaption> Projected global dementia cases, highlighting the increase from 50 million in 2019 to 150 million by 2050. [^figure_3]
+<figcaption> Figure 3: Projected global dementia cases, highlighting the increase from 50 million in 2019 to 150 million by 2050. [^figure_3]
 </figcaption>
 </figure>
 
