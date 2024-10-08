@@ -60,7 +60,7 @@ To implement this system, we split the evolution process across three plasmids (
 
 This modular system allows us to easily swap out the substrate on AP2, enabling it to be applied to different E3 ligases or substrates. It also supports performing “substrate walks,” a process where we incrementally alter the amino-acid sequence of the substrate recognition motif to shift from a canonical target to a novel target of therapeutic interest. By doing this stepwise, we can control the selection pressure and gradually evolve SIAH1/2 to recognize new substrates.
 
-We plan to run this system in a bioreactor to create a continuous evolutionary environment. SIAH1/2 variants that successfully ubiquitinate the changing substrate will enable phage propagation, while less efficient variants are washed out (Figure X below). Over time, we can evolve SIAH1/2 to target a novel substrate, potentially demonstrating that directed evolution is a viable strategy for developing highly specific E3 ligases capable of precise targeted protein degradation.
+We plan to run this system in a bioreactor to create a continuous evolutionary environment. SIAH1/2 variants that successfully ubiquitinate the changing substrate will enable phage propagation, while less efficient variants are washed out (Figure 4 below). Over time, we can evolve SIAH1/2 to target a novel substrate, potentially demonstrating that directed evolution is a viable strategy for developing highly specific E3 ligases capable of precise targeted protein degradation.
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/Complete_E3_PACE.png)
