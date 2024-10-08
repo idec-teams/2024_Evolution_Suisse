@@ -125,6 +125,9 @@ To this end, we propagated the SIAH1 SP phages in bacterial cells that contain a
 <figcaption> Figure 9: Detection of mutated bases in SIAH1-SP during eight drift passages This figure illustrates the accumulation of mutations in the SIAH1-SP gene across eight cycles of drift. Each cycle represents one passage, during which the phages underwent random mutations in the absence of selection pressure. The data demonstrate how much genetic variation has been introduced over the course of the drift passages</figcaption>
 </figure>
 
+### What are the next steps?
+Once we confirm that the E3-dependent phage propagation system is working properly, we will gradually evolve SIAH1/2 with PACE from recognizing the native degron to recognizing the degron of the final target protein, NLRP3. This process, called a "substrate walk," will help us evolve the SIAH1/2 enzymes to specifically recognize and mark NLRP3 for degradation. If we are successful in finding a variant of SIAH1/2 that can target NLRP3, we will test its effects in living organisms to see if it can trigger the degradation of NLRP3 through a process called polyubiquitination. Importantly, we'll also test for any unwanted effects (off-target effects) of the SIAH1/2 variants and, if they occur, remove them in further rounds of evolution using the negative selection system introduced above. While we continue to fine-tune the selection system, we believe this method holds promise for developing new therapies using engineered enzymes as targeted protein degradation drugs.
+
 ## References
 
 [^E3_1]:Qi J, Kim H, Scortegagna M, Ronai ZA. Regulators and Effectors of Siah Ubiquitin Ligases. Cell Biochem Biophys. 2013;67: 15–24. doi:10.1007/s12013-013-9636-2
