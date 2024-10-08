@@ -50,7 +50,7 @@
 + Assay to confirm that vanillic acid and other components of the system (e.g., RNAP subunits) are not toxic for cell growth
 
 ## October
-+ PANCE for different S2060 co-transformant strains using SIAH1-SP
++ PANCE for different S2060 co-transformant strains using SIAH1-SP for system validation
 
 
 
