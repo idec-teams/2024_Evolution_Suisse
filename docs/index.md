@@ -34,7 +34,7 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 
 We also: 
 
-* We learned the PACE workflow and practiced setting up and running the PACE reactor. 
+* Learned the PACE workflow and practiced setting up and running the PACE reactor. 
 
 We are currently still working on: 
 
