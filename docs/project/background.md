@@ -37,6 +37,15 @@ Thanks to medical and technological advancements, we are living longer, but this
 
 Non-pharmacological interventions—such as rehabilitation, brain stimulation, and cognitive training—can improve quality of life but do not halt disease progression. Promising new approaches include antibody-based therapies, which aim to neutralise disease-associated proteins by promoting their clearance and preventing their aggregation and spread. However, this strategy faces significant challenges. Antibodies are large molecules that struggle to penetrate the blood-brain barrier, meaning they primarily target extracellular protein deposits, leaving the toxic protein accumulations inside cells unaddressed. Given these limitations, there is a pressing need for more innovative approaches that can effectively target the underlying causes of neurodegenerative diseases.
 
+
+### NLRP3: A Key Player in Chronic Disease and Inflammation
+
+A common factor between these two chronic diseases is the role of NLRP3. NLRP3 acts as an intracellular danger sensor, helping defend against pathogens. When activated by danger signals, it forms an inflammasome and triggers the release of pro-inflammatory cytokines, causing inflammation in surrounding tissues. Additionally, NLRP3 activation can lead to cell death, contributing to the progression of these diseases. This makes NLRP3 a key player in the immune system and a strong driver of inflammation[^nlrp3_1].
+
+Although NLRP3 plays a beneficial role in immunity, its overactivation is linked to many autoinflammatory conditions, including liver diseases like nonalcoholic fatty liver disease (NAFLD), and neurodegenerative disorders[^nlrp3_2]. Triggers for NLRP3 overactivation include factors like reactive oxygen species, gut imbalances, cardiolipin, and cholesterol crystals[^nlrp3_3]. Our goal is to develop a therapy to reduce NLRP3 activity in patients affected by these liver and neurodegenerative diseases, helping to slow down inflammation-driven disease progression.
+
+
+
 ## Targeted Protein Degradation presents a promising therapeutic strategy
 
 Cells not only constantly produce proteins, but also continuously break down old, damaged, or unnecessary ones. This protein degradation process is vital for maintaining cellular health and is often centred around ubiquitination—a system where unwanted proteins are tagged with a small molecule called ubiquitin. The presence of ubiquitin signals to the cell’s "garbage disposal" system, the ubiquitin-proteasome system (UPS), to degrade these proteins[^ubi_first].
@@ -85,6 +94,10 @@ Sometimes, the activity of the biomolecule we're evolving is too weak, resulting
 [^alz_4]:Cummings J, Aisen PS, DuBois B, Frölich L, Jack CR, Jones RW, et al. Drug development in Alzheimer’s disease: the path to 2025. Alz Res Therapy. 2016;8: 39. doi:10.1186/s13195-016-0207-9
 
 [^figure_3]:Nichols E, Steinmetz JD, Vollset SE, Fukutaki K, Chalek J, Abd-Allah F, et al. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019. The Lancet Public Health. 2022;7: e105–e125. doi:10.1016/S2468-2667(21)00249-8
+
+[^nlrp3_1]:Mangan MSJ, Olhava EJ, Roush WR, Seidel HM, Glick GD, Latz E. Erratum: Targeting the NLRP3 inflammasome in inflammatory diseases. Nat Rev Drug Discov. 2018;17: 688–688. doi:10.1038/nrd.2018.149
+[^nlrp3_2]:Yao J, Wang Z, Song W, Zhang Y. Targeting NLRP3 inflammasome for neurodegenerative disorders. Mol Psychiatry. 2023;28: 4512–4527. doi:10.1038/s41380-023-02239-0
+[^nlrp3_3]:Ramos-Tovar E, Muriel P. NLRP3 inflammasome in hepatic diseases: A pharmacological target. Biochemical Pharmacology. 2023;217: 115861. doi:10.1016/j.bcp.2023.115861
 
 [^ubi_first]:Tsai JM, Nowak RP, Ebert BL, Fischer ES. Targeted protein degradation: from mechanisms to clinic. Nat Rev Mol Cell Biol. 2024;25: 740–757. doi:10.1038/s41580-024-00729-9
 [^ubi_second]:Cowan AD, Ciulli A. Driving E3 ligase substrate specificity for targeted protein degradation: Lessons from nature and the laboratory. Annu Rev Biochem. 2022;91: 295–319. doi:10.1146/annurev-biochem-032620-104421
