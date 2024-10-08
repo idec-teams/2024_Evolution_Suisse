@@ -33,9 +33,11 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 * We successfully drifted SIAH1. 
 
 We also: 
+
 * We learned the PACE workflow and practiced setting up and running the PACE reactor. 
 
 We are currently still working on: 
+
 * Achieving E3 ligase activity-dependent phage propagation in the selection system.
 * Running PANCE and/or PACE to evolve SIAH1/2 towards the recognition of NLRP3. 
 
