@@ -1,5 +1,5 @@
 # Lab notebook
-[Download Full Lab Notebook (84Mb)](/files/lab_notebook_iDEC.pdf){ .md-button .md-button--primary }
+[Download Full Lab Notebook (84Mb)](docs/files/lab_notebook_iDEC.pdf){ .md-button .md-button--primary }
 ## May
 + Lab introduction
 + Cloning first level 0 (pES0001-pES0022) and level 1 constructs (pES1001-pES1027)
