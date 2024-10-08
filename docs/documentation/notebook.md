@@ -20,7 +20,7 @@
 + Troubleshooting of the PACE reactor setup and code
 
 ## August
-+Cloning of level 1 (pES1104-pES1111) and level 2 (pES2023-pES2037) constructs, among which:
++ Cloning of level 1 (pES1104-pES1111) and level 2 (pES2023-pES2037) constructs, among which:
   + Level 2 constructs with degron-mutated EGLN3 variants
   + Level 2 construct without N-term RNAP
 + While SIAH1-SP phages do not wash out from the PACE lagoon, subsequent phage propagation assays show non-specific propagation ability, so the evolution is put on hold
