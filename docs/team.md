@@ -21,7 +21,7 @@ hide:
     <span> Gabriel Cervera Arriaga <br>
       Master's student, ETH Zürich
       <br> 
-      Casually deadfilts two DW-86FL50 MCR -80°C freezers beween experiments.</span>
+      Casually deadlifts two DW-86FL50 MCR -80°C freezers between experiments.</span>
   </div>
   
   <div class="image-item">
@@ -35,19 +35,19 @@ hide:
   <div class="image-item">
     <img src="https://idec-teams.github.io/2024_Evolution_Suisse/img/team images/Sasha.jpg" alt="Sasha" style="height:300px;width:300px">
     <span> Sasha Melkonyan <br> Reseach assistant, University of Zürich<br>
-      Rumor has it he has implanted a neuralink to be able to communicate with phages.</span>
+      Rumour has it he has implanted a neuralink to communicate with phages.</span>
   </div>
   
   <div class="image-item">
     <img src="https://idec-teams.github.io/2024_Evolution_Suisse/img/team images/Noemie.jpg" alt="Noemie" style="height:300px;width:300px">
     <span> Noemie Allet <br>
       Master's student, ETH Zürich
-      <br>Sourdough, lab management, plasmid maps? The only constant is that she does not dissapoint.</span>
+      <br>Sourdough, lab management, plasmid maps? The only constant is that she does not disapoint.</span>
   </div>
   
   <div class="image-item">
     <img src="https://idec-teams.github.io/2024_Evolution_Suisse/img/team images/Max.jpg" alt="Max" style="height:300px;width:300px">
-    <span> Max Schmitt <br> Doctoral student, ETH Zürich <br> Best delegator in the west</span>
+    <span> Max Schmitt <br> Doctoral student, ETH Zürich <br> Best delegator in the west.</span>
   </div>
   
   <div class="image-item">
@@ -71,7 +71,7 @@ hide:
   <div class="image-item">
     <img src="https://idec-teams.github.io/2024_Evolution_Suisse/img/team images/Michael.jpg" alt="Michael" style="height:300px;width:300px">
     <span> Michael Bohl<br>
-      Master's student, ETH Zürich <br> if our results were as good as his muscle-ups, we would have solved cancer 6 months ago.</span>
+      Master's student, ETH Zürich <br> If our results were as good as his muscle-ups, we would have solved cancer 6 months ago.</span>
   </div>
 
   <div class="image-item">
