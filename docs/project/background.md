@@ -1,39 +1,29 @@
 # Background
-## Proper protein function is integral to our health
+
+## Proteins Gone Rogue: How Misbehaving Proteins Drive Disease
+
 Virtually all processes in our cells rely on the proper functioning of macromolecules called proteins. They are composed of long chains of amino acids, with the precise sequence of amino acids determining the three-dimensional structure and function of the protein. Proteins provide structural support for cells, replicate genetic material, process metabolic reactions, generate energy, and contribute to cell growth, among countless other vital roles. However, maintaining the proper activity and behaviour of these proteins is crucial for cellular health.
 
 Due to factors such as ageing, genetic mutations, or environmental stressors, proteins can malfunction, leading to detrimental effects. Proteins might be overproduced, misfolded, or become hyperactive, contributing to cellular dysfunction and disease. This dysregulation of protein activity is a growing concern, as it underlies many serious health issues. We can illustrate this with two prominent examples: hepatic diseases, like non-alcoholic fatty liver disease (NAFLD), and neurodegenerative diseases, such as Alzheimer's and Parkinson's. Both conditions are increasingly prevalent and represent a major health burden worldwide, largely due to the accumulation or overactivity of harmful proteins that disrupt normal cellular processes.
 
-### Hepatic diseases 
-In recent decades, growing global wealth and improved food availability have led to increased consumption of calorie-dense, highly processed foods. This shift in dietary habits, combined with a decrease in physical activity due to more urbanised, sedentary lifestyles, has contributed to rising rates of obesity and metabolic disorders. 
 
+### The Rise of Fatty Liver Disease
+
+In recent decades, growing global wealth and improved food availability have led to increased consumption of calorie-dense, highly processed foods. This shift in dietary habits, combined with a decrease in physical activity due to more urbanised, sedentary lifestyles, has contributed to rising rates of obesity and metabolic disorders (Figure 1). Currently, more than 1.9 billion adults are overweight, with 650 million classified as obese. Obesity is a major risk factor for both type 2 diabetes (T2D) and non-alcoholic fatty liver disease (NAFLD), with an estimated 77.87% of obese individuals developing NAFLD[^hepatic_1]. Globally, NAFLD has and estimated prevalence of 30%, making it one of the most common liver disorders worldwide[^hepatic_2]. 
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig1.jpeg)
-<figcaption> Global trends in obesity, categorised by region for both men and women. The graphs illustrate the rising number of obese and severely obese individuals over time, with notable increases across various regions [^figure_1].
+<figcaption> Global trends in obesity, categorised by region for both men and women.  [^figure_1].
 </figcaption>
 </figure>
 
-Currently, more than 1.9 billion adults are overweight, with 650 million classified as obese. Obesity is a major risk factor for both type 2 diabetes (T2D) and non-alcoholic fatty liver disease (NAFLD), with an estimated 77.87% of obese individuals developing NAFLD[^hepatic_1]. Globally, NAFLD has and estimated prevalence of 30%, making it one of the most common liver disorders worldwide[^hepatic_2].
-
-
-<figure markdown>
-![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig2.png)
-<figcaption> Global prevalence of NAFLD and its alignment with calorie intake. The horizontal coloured squares indicate energy balance in kilocalories[^figure_2].
-</figcaption>
-</figure>
-
-NAFLD progresses through several stages, potentially leading to hepatocellular carcinoma (HCC)[^figure_3]. In the first stage of NAFLD, known as simple fatty liver (steatosis), fat accumulates in liver cells without causing harm. This stage is usually asymptomatic and can be reversed with lifestyle changes. If left untreated, NAFLD may advance to non-alcoholic steatohepatitis (NASH), a more severe form involving liver inflammation and potential cell damage. Persistent NASH can lead to fibrosis, where scar tissue forms around the liver and its vessels, though the liver may still function relatively well. Over time, fibrosis can progress to cirrhosis, which is marked by extensive scarring and impaired liver function, eventually leading to liver failure. In some severe cases, NAFLD can progress to hepatocellular carcinoma (HCC), a form of liver cancer that may arise even in non-cirrhotic patients, though it is more common in those with cirrhosis. Importantly, not all individuals with NAFLD will progress through every stage, and early intervention can prevent or even reverse disease progression.
-
+NAFLD progresses through several stages, potentially leading to hepatocellular carcinoma (HCC) (Figure 2). In the first stage of NAFLD, known as simple fatty liver (steatosis), fat accumulates in liver cells without causing harm. This stage is usually asymptomatic and can be reversed with lifestyle changes. If left untreated, NAFLD may advance to non-alcoholic steatohepatitis (NASH), a more severe form involving liver inflammation and potential cell damage. Persistent NASH can lead to fibrosis, where scar tissue forms around the liver and its vessels, though the liver may still function relatively well. Over time, fibrosis can progress to cirrhosis, which is marked by extensive scarring and impaired liver function, eventually leading to liver failure. In some severe cases, NAFLD can progress to hepatocellular carcinoma (HCC), a form of liver cancer that may arise even in non-cirrhotic patients, though it is more common in those with cirrhosis. Importantly, not all individuals with NAFLD will progress through every stage, and early intervention can prevent or even reverse disease progression[^hepatic_3]. Targeting NAFLD is crucial due to its widespread prevalence, lack of effective treatments, and increasing economic burden. NAFLD affects around 30% of the global population, yet there are currently no FDA-approved medications specifically for its treatment. Developing new therapies would address this significant treatment gap, potentially improving patient outcomes by preventing disease progression. Effective interventions could also reduce the economic strain associated with managing advanced stages of NAFLD, which require costly care.
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig3.png)
-<figcaption> [^figure_3]
+<figcaption> Progression of non-alcoholic fatty liver disease (NAFLD). [^figure_3]
 </figcaption>
 </figure>
-
-
-Targeting NAFLD is crucial due to its widespread prevalence, lack of effective treatments, and increasing economic burden. NAFLD affects around 30% of the global population, yet there are currently no FDA-approved medications specifically for its treatment. Developing new therapies would address this significant treatment gap, potentially improving patient outcomes by preventing disease progression. Effective interventions could also reduce the economic strain associated with managing advanced stages of NAFLD, which require costly care.
 
 ### Neurodegenerative diseases
 
@@ -79,6 +69,7 @@ Sometimes, the activity of the biomolecule we're evolving is too weak, resulting
 [^figure_1]:Trends in adult body-mass index in 200 countries from 1975 to 2014: a pooled analysis of 1698 population-based measurement studies with 19·2 million participants. The Lancet. 2016;387: 1377–1396. doi:10.1016/S0140-6736(16)30054-X
 [^hepatic_1]: Dharmalingam M, Yamasandhi Pg. Nonalcoholic fatty liver disease and Type 2 diabetes mellitus. Indian J Endocr Metab. 2018;22: 421. doi:10.4103/ijem.IJEM_585_17
 [^hepatic_2]:Younossi ZM, Golabi P, Paik JM, Henry A, Van Dongen C, Henry L. The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. Hepatology. 2023;77: 1335–1347. doi:10.1097/HEP.0000000000000004
+[^hepatic_3]:Grander C, Grabherr F, Tilg H. Non-alcoholic fatty liver disease: pathophysiological concepts and treatment options. Cardiovascular Research. 2023;119: 1787–1798. doi:10.1093/cvr/cvad095
 
 [^figure_2]:Agbim U, Carr RM, Pickett-Blakely O, Dagogo-Jack S. Ethnic Disparities in Adiposity: Focus on Non-alcoholic Fatty Liver Disease, Visceral, and Generalized Obesity. Curr Obes Rep. 2019;8: 243–254. doi:10.1007/s13679-019-00349-x
 [^figure_3]:Guo X, Yin X, Liu Z, Wang J. Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis and Natural Products for Prevention and Treatment. IJMS. 2022;23: 15489. doi:10.3390/ijms232415489
