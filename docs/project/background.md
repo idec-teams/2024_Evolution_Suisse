@@ -21,7 +21,7 @@ NAFLD progresses through several stages, potentially leading to hepatocellular c
 
 <figure markdown>
 ![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/fig3.png)
-<figcaption> Progression of non-alcoholic fatty liver disease (NAFLD). [^figure_3]
+<figcaption> Progression of non-alcoholic fatty liver disease (NAFLD). [^figure_2]
 </figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ Sometimes, the activity of the biomolecule we're evolving is too weak, resulting
 [^hepatic_2]:Younossi ZM, Golabi P, Paik JM, Henry A, Van Dongen C, Henry L. The global epidemiology of nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH): a systematic review. Hepatology. 2023;77: 1335–1347. doi:10.1097/HEP.0000000000000004
 [^hepatic_3]:Grander C, Grabherr F, Tilg H. Non-alcoholic fatty liver disease: pathophysiological concepts and treatment options. Cardiovascular Research. 2023;119: 1787–1798. doi:10.1093/cvr/cvad095
 
-[^figure_2]:Agbim U, Carr RM, Pickett-Blakely O, Dagogo-Jack S. Ethnic Disparities in Adiposity: Focus on Non-alcoholic Fatty Liver Disease, Visceral, and Generalized Obesity. Curr Obes Rep. 2019;8: 243–254. doi:10.1007/s13679-019-00349-x
+[^figure_2]:Guo X, Yin X, Liu Z, Wang J. Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis and Natural Products for Prevention and Treatment. IJMS. 2022;23: 15489. doi:10.3390/ijms232415489
 
 
 [^alz_1]:Alzheimer’s Association. 2019 Alzheimer’s disease facts and figures. Alzheimer’s &amp; Dementia. 2019;15: 321–387. doi:10.1016/j.jalz.2019.01.010
