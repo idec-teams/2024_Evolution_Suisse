@@ -8,7 +8,7 @@ The SIAH family recognizes its targets through a PXAXVXP degron motif [^E3_7], w
 
 <figure markdown>
 ![Figure_E3](https://idec-teams.github.io/2024_Evolution_Suisse/img/result figures/SIAH1_peptidebinding.png)
-<figcaption> Figure 1: SIAH1 monomer bound to peptide substrate; PDB: 2A25 [^E3_5][^E3_6]. Peptide residues (red) alternate between facing towards and away from SIAH1 (blue).
+<figcaption> Figure 1: SIAH1 monomer bound to peptide substrate; PDB: 2A25. Peptide residues (red) alternate between facing towards and away from SIAH1 (blue).
 </figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ The selection of canonical SIAH1/2 targets, needed to test the evolution logic, 
 4. The size of the canonical substrate should not exceed 300 amino acids in size, as this could also compromise our synthetic evolutionary system
 5. The structure of the protein and interaction with the selected E3 ligase (SIAH1/2) should be characterised.
 
-Based on these five criteria, we searched published ubiquitination databases (10.1093/database/baab010, 10.1093/nar/gkab962) for canonical substrates. EGLN1, EGLN3 and ɑ-Synuclein were selected as canonical substrates from the mentioned databases as they matched our criteria the best. 
+Based on these five criteria, we searched published ubiquitination databases [^substr_2][^substr_3] for canonical substrates. EGLN1, EGLN3 and ɑ-Synuclein were selected as canonical substrates from the mentioned databases as they matched our criteria the best. 
 
 | Canonical substrate  | Protein size (aa) | Degron | Ubiquitination site | Canonical E3 ligase |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -148,3 +148,5 @@ Once we confirm that the E3-dependent phage propagation system is working proper
 
 [^E3_9]:House CM, Frew IJ, Huang H-L, Wiche G, Traficante N, Nice E, et al. A binding motif for Siah ubiquitin ligase. Proc Natl Acad Sci USA. 2003;100: 3101–3106. doi:10.1073/pnas.0534783100
 [^substr_1]:Liang Z, Damianou A, Di Daniel E, Kessler BM. Inflammasome activation controlled by the interplay between post-translational modifications: emerging drug target opportunities. Cell Commun Signal. 2021;19: 23. doi:10.1186/s12964-020-00688-6
+[^substr_2]:Li Z, Chen S, Jhong J-H, Pang Y, Huang K-Y, Li S, et al. UbiNet 2.0: a verified, classified, annotated and updated database of E3 ubiquitin ligase–substrate interactions. Database. 2021;2021: baab010. doi:10.1093/database/baab010
+[^substr_3]:Wang X, Li Y, He M, Kong X, Jiang P, Liu X, et al. UbiBrowser 2.0: a comprehensive resource for proteome-wide known and predicted ubiquitin ligase/deubiquitinase–substrate interactions in eukaryotic species. Nucleic Acids Research. 2022;50: D719–D728. doi:10.1093/nar/gkab962
