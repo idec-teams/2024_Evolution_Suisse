@@ -27,7 +27,7 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 ## Key achievements:
 
 * We have identified promising E3 ligases and targets.
-* We developed an evolutionary logic to evolve these E3 ligases.
+* We designed an evolutionary logic to evolve these E3 ligases.
 * We showed that phage propagation depends on the substrate used and the presence of both RNAP subunits.
 * We observed a high background propagation in our system, and we developed possible solutions for the observed background phage propagation.
 * We successfully drifted SIAH1. 
