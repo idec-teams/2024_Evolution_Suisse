@@ -1,6 +1,16 @@
 # Results
 
+## Selection of of the E3 ligase
 
+After evaluating several well-known human E3 ligases that could be engineered, we decided to work on evolving SIAH1 and SIAH2 (collectively referred to as SIAH1/2 in this text), which are primarily associated with cellular stress response, such as hypoxia [^E3_1][^E3_2]. Both belong to the RING family of E3 ligases and share 86% sequence identity with nearly identical substrate-binding domains[^E3_3]. Their small sizes—282 amino acids for SIAH1 and 324 for SIAH2—are optimal for phage-assisted continuous evolution (PACE), as this allows for efficient expression in E. coli and packaging into M13 phages. Moreover, this small size compared to other E3 ligases also reduces the theoretical library size which is usually advantageous in directed evolution experiments. In general, neither SIAH1 nor SIAH2 are individually characterised to an extent we would like them to be but together they generate a full picture. SIAH2 has already been used successfully in E. coli ubiquitination assays without any partner proteins except E1 and E2, suggesting that additional regulatory proteins aren’t required for its ubiquitination activity [^E3_4]. This streamlines the evolution processes by reducing potential points of failure in the selection system and keeps the plasmid sizes within an acceptable range. Given how similar SIAH1 is to SIAH2 in structure and function, we anticipate it will behave similarly in E. coli as well. While these studies are missing for SIAH1, the binding of SIAH1 to specific peptide sequences has been well-studied via X-ray crystallography [^E3_5][^E3_6], which is missing for SIAH2. Together, the data available for SIAH1/2 offer a solid foundation for targeting new sequences and evolving either protein to recognize non-canonical substrates.
+
+The SIAH family recognizes its targets through a PXAXVXP degron motif [^E3_7], where conserved residues Pro, Ala, Val, and Pro face the SIAH binding pocket (Figure X). Specificity is mainly determined by the Ala and Val residues in positions 3 and 5, as these pockets are too small to accommodate larger side chains [^E3_8]. Additionally, the Pro residue at position 7 interacts with Trp178 in SIAH, contributing further specificity. Among canonical substrates, the VXP sequence is highly conserved [^E3_6][^E3_9], while other residues show more variability, making them prime candidates to alter SIAH1/2 specificity for these positions.
+
+<figure markdown>
+![Figure_E3](https://idec-teams.github.io/2024_Evolution_Suisse/img/result figures/SIAH1_peptidebinding.png)
+<figcaption> Figure 1: SIAH1 monomer bound to peptide substrate; PDB: 2A25 [^E3_5][^E3_6]. Peptide residues (red) alternate between facing towards and away from SIAH1 (blue).
+</figcaption>
+</figure>
 
 ## Development of an E3 ligase PACE evolutionary system
 ### Ubiquitination-dependent selection logic
@@ -84,3 +94,22 @@ To this end, we propagated the SIAH1 SP phages in bacterial cells that contain a
 <figcaption> Detection of mutated bases in SIAH1-SP during eight drift passages This figure illustrates the accumulation of mutations in the SIAH1-SP gene across eight cycles of drift. Each cycle represents one passage, during which the phages underwent random mutations in the absence of selection pressure. The data demonstrate how much genetic variation has been introduced over the course of the drift passages</figcaption>
 </figure>
 
+## References
+
+[^E3_1]:Qi J, Kim H, Scortegagna M, Ronai ZA. Regulators and Effectors of Siah Ubiquitin Ligases. Cell Biochem Biophys. 2013;67: 15–24. doi:10.1007/s12013-013-9636-2
+
+[^E3_2]:Pérez M, García-Limones C, Zapico I, Marina A, Schmitz ML, Muñoz E, et al. Mutual regulation between SIAH2 and DYRK2 controls hypoxic and genotoxic signaling pathways. Journal of Molecular Cell Biology. 2012;4: 316–330. doi:10.1093/jmcb/mjs047
+
+[^E3_3]:Zhang Q, Wang Z, Hou F, Harding R, Huang X, Dong A, et al. The substrate binding domains of human SIAH E3 ubiquitin ligases are now crystal clear. Biochimica et Biophysica Acta (BBA) - General Subjects. 2017;1861: 3095–3105. doi:10.1016/j.bbagen.2016.10.019
+
+[^E3_4]:Levin-Kravets O, Tanner N, Shohat N, Attali I, Keren-Kaplan T, Shusterman A, et al. A bacterial genetic selection system for ubiquitylation cascade discovery. Nat Methods. 2016;13: 945–952. doi:10.1038/nmeth.4003
+
+[^E3_5]:Stebbins JL, Santelli E, Feng Y, De SK, Purves A, Motamedchaboki K, et al. Structure-Based Design of Covalent Siah Inhibitors. Chemistry & Biology. 2013;20: 973–982. doi:10.1016/j.chembiol.2013.06.008
+
+[^E3_6]:Santelli E, Leone M, Li C, Fukushima T, Preece NE, Olson AJ, et al. Structural Analysis of Siah1-Siah-interacting Protein Interactions and Insights into the Assembly of an E3 Ligase Multiprotein Complex. Journal of Biological Chemistry. 2005;280: 34278–34287. doi:10.1074/jbc.M506707200
+
+[^E3_7]:House CM, Hancock NC, Möller A, Cromer BA, Fedorov V, Bowtell DDL, et al. Elucidation of the Substrate Binding Site of Siah Ubiquitin Ligase. Structure. 2006;14: 695–701. doi:10.1016/j.str.2005.12.013
+
+[^E3_8]:Briant DJ, Ceccarelli DF, Sicheri F. I Siah Substrate! Structure. 2006;14: 627–628. doi:10.1016/j.str.2006.03.003
+
+[^E3_9]:House CM, Frew IJ, Huang H-L, Wiche G, Traficante N, Nice E, et al. A binding motif for Siah ubiquitin ligase. Proc Natl Acad Sci USA. 2003;100: 3101–3106. doi:10.1073/pnas.0534783100
