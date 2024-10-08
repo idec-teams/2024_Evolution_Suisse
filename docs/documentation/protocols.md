@@ -242,9 +242,17 @@ Set the thermocycler for the following program:
 2. Inoculate 30 mL LB with bacteria (correct stringency, correct media depending on strain), grow to OD<sub>600</sub> of 0.6 (takes about 8 h). Bacteria can be stored in the fridge overnight.
 3. Important: Work in sterile conditions when assembling the reactor to avoid contaminations. All components should be either autoclaved or sterile already.
 4. Add antibiotics/inducers etc. to media bottle
-5. Set up hardware: connect tubing and insert tubes into pump, connect waste and media bottles. Make sure the orientation of the tubing in the pumps is correct.
-6. Prepare glass bottle for chemostat (transfer 30 mL of liquid culture grown the day before). Mark the liquid level with a pen on the bottle.
-7. Insert the three needles in the lagoon
+5. Set up hardware: connect tubing and insert tubes into pump, connect waste and media bottles (see figure). Make sure the orientation of the tubing in the pumps is correct.
+
+<figure markdown>
+![Figure_tubing](https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png)
+<figcaption> Set up of the PACE reactor.
+</figcaption>
+</figure>
+
+
+7. Prepare glass bottle for chemostat (transfer 30 mL of liquid culture grown the day before). Mark the liquid level with a pen on the bottle.
+8. Insert the three needles in the lagoon
    * Waste: insert it at the edge. It should touch the liquid surface and put it against the glass wall
    * Fresh media: should be inserted at the centre, higher than the waste needle
    * Air: only insert it a bit (highest needle), connect a sterile filter on the outside.
@@ -254,6 +262,7 @@ Set the thermocycler for the following program:
 <figcaption> Media and waste tubing in the lagoon of the PACE reactor.
 </figcaption>
 </figure>
+
    
 8. Run Chemostat until the correct OD is reached. (e.g. overnight)
 9. Set up lagoon:
