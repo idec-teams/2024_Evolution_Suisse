@@ -57,7 +57,7 @@ Next, we looked at how changes in the degron would affect our system. We found t
 
 We were able to show that phage propagation is dependent on both the substrate of the E3 ligase and the E3 ligase itself. However, we also observed a very high background phage propagation in our system. For our evolution to work, we need to be able to link phage proliferation to degron recognition, so this phage proliferation caused by other factors than the degron interferes with the use of this system for the directed evolution part of this project. The next step is to find out why this is happening and how we can modify our system so that it doesn't happen. 
 
-### What factors lead to unwanted, E3-ligase independent page propagation? 
+### What factors lead to unwanted, E3-independent phage propagation? 
 We suspected that the background phage propagation we observed could be caused by one of two things: 
 
 1. Leaky transcription of gIII: the gene controlling phage growth is turned on without the split-RNAP components being present. 
