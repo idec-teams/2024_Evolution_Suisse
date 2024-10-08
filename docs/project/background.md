@@ -25,12 +25,17 @@ NAFLD progresses through several stages, potentially leading to hepatocellular c
 </figcaption>
 </figure>
 
-### Neurodegenerative diseases
+### Toward Better Solutions for Neurodegenerative Diseases
 
-Thanks to medical and technological advancements, we are living longer, but this has led to an increase in neurodegenerative diseases such as Alzheimer's, Huntington's, and Parkinson's. In Switzerland alone, dementia-related diseases incurred costs of 13.74 billion USD in 2017 [^alz_1], and globally, the number of cases is expected to rise to 135 million by 2050[^alz_2]. This growing burden highlights the urgent need for innovative and effective solutions. Despite decades of research, most current therapies focus on managing symptoms rather than curing the diseases. For example, traditional pharmacological therapies, like cholinesterase inhibitors for Alzheimer's and dopamine agonists for Parkinson's, aim to manage symptoms without addressing the root causes [^alz_3][^alz_4].
+Thanks to medical and technological advancements, we are living longer, but this has led to an increase in neurodegenerative diseases such as Alzheimer's, Huntington's, and Parkinson's. In Switzerland alone, dementia-related diseases incurred costs of 13.74 billion USD in 2017 [^alz_1], and globally, the number of cases is expected to rise to 135 million by 2050 [^alz_2]. This growing burden highlights the urgent need for innovative and effective solutions. Despite decades of research, most current therapies focus on managing symptoms rather than curing the diseases. For example, traditional pharmacological therapies, like cholinesterase inhibitors for Alzheimer's and dopamine agonists for Parkinson's, aim to manage symptoms without addressing the root causes [^alz_3][^alz_4].
 
-Non-pharmacological interventions—such as rehabilitation, brain stimulation, and cognitive training—can improve quality of life but do not halt disease progression. Promising new approaches include antibody-based therapies, which aim to neutralise disease-associated proteins by promoting their clearance and preventing their aggregation and spread. However, this strategy faces significant challenges. Antibodies are large molecules that struggle to penetrate the blood-brain barrier as well as the cell membrane, meaning they primarily target extracellular deposits, leaving the toxic protein accumulations unaddressed. Given these limitations, there is a pressing need for more innovative approaches that can effectively target the underlying causes of neurodegenerative disease.
+<figure markdown>
+![Figure_positive_negative_selection](https://idec-teams.github.io/2024_Evolution_Suisse/img/background figures/AlzheimersMap_sv2.gif)
+<figcaption> Projected global dementia cases, highlighting the increase from 50 million in 2019 to 150 million by 2050. [^figure_3]
+</figcaption>
+</figure>
 
+Non-pharmacological interventions—such as rehabilitation, brain stimulation, and cognitive training—can improve quality of life but do not halt disease progression. Promising new approaches include antibody-based therapies, which aim to neutralise disease-associated proteins by promoting their clearance and preventing their aggregation and spread. However, this strategy faces significant challenges. Antibodies are large molecules that struggle to penetrate the blood-brain barrier, meaning they primarily target extracellular protein deposits, leaving the toxic protein accumulations inside cells unaddressed. Given these limitations, there is a pressing need for more innovative approaches that can effectively target the underlying causes of neurodegenerative diseases.
 
 ## Targeted Protein Degradation presents a promising therapeutic strategy
 
@@ -72,12 +77,14 @@ Sometimes, the activity of the biomolecule we're evolving is too weak, resulting
 [^hepatic_3]:Grander C, Grabherr F, Tilg H. Non-alcoholic fatty liver disease: pathophysiological concepts and treatment options. Cardiovascular Research. 2023;119: 1787–1798. doi:10.1093/cvr/cvad095
 
 [^figure_2]:Agbim U, Carr RM, Pickett-Blakely O, Dagogo-Jack S. Ethnic Disparities in Adiposity: Focus on Non-alcoholic Fatty Liver Disease, Visceral, and Generalized Obesity. Curr Obes Rep. 2019;8: 243–254. doi:10.1007/s13679-019-00349-x
-[^figure_3]:Guo X, Yin X, Liu Z, Wang J. Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis and Natural Products for Prevention and Treatment. IJMS. 2022;23: 15489. doi:10.3390/ijms232415489
+
 
 [^alz_1]:Alzheimer’s Association. 2019 Alzheimer’s disease facts and figures. Alzheimer’s &amp; Dementia. 2019;15: 321–387. doi:10.1016/j.jalz.2019.01.010
 [^alz_2]:Gammon K. Neurodegenerative disease: Brain windfall. Nature. 2014;515: 299–300. doi:10.1038/nj7526-299a
 [^alz_3]:Birks JS, Harvey RJ. Donepezil for dementia due to Alzheimer’s disease. Cochrane Dementia and Cognitive Improvement Group, editor. Cochrane Database of Systematic Reviews. 2018;2018. doi:10.1002/14651858.CD001190.pub3
 [^alz_4]:Cummings J, Aisen PS, DuBois B, Frölich L, Jack CR, Jones RW, et al. Drug development in Alzheimer’s disease: the path to 2025. Alz Res Therapy. 2016;8: 39. doi:10.1186/s13195-016-0207-9
+
+[^figure_3]:Nichols E, Steinmetz JD, Vollset SE, Fukutaki K, Chalek J, Abd-Allah F, et al. Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019. The Lancet Public Health. 2022;7: e105–e125. doi:10.1016/S2468-2667(21)00249-8
 
 [^ubi_first]:Tsai JM, Nowak RP, Ebert BL, Fischer ES. Targeted protein degradation: from mechanisms to clinic. Nat Rev Mol Cell Biol. 2024;25: 740–757. doi:10.1038/s41580-024-00729-9
 [^ubi_second]:Cowan AD, Ciulli A. Driving E3 ligase substrate specificity for targeted protein degradation: Lessons from nature and the laboratory. Annu Rev Biochem. 2022;91: 295–319. doi:10.1146/annurev-biochem-032620-104421
