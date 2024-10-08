@@ -47,7 +47,7 @@ hide:
   
   <div class="image-item">
     <img src="https://idec-teams.github.io/2024_Evolution_Suisse/img/team images/Max.jpg" alt="Max" style="height:300px;width:300px">
-    <span> Max Schmitt <br> Doctoral student, ETH Zürich <br> Knows what should be done in the lab because he doesnt need to do it.</span>
+    <span> Max Schmitt <br> Doctoral student, ETH Zürich <br> Best delegator in the west</span>
   </div>
   
   <div class="image-item">
