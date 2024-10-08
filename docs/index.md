@@ -25,7 +25,8 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 6. Further work towards clinical use of the evolved E3 ligase for Targeted Protein Degradation.
 
 ## Key achievements:
-- test
+- We identified promising e3 ligases and targets.
+- We developed an evolutionary logic to evolve these E3 ligases. 
 
 ## References
 [^ubi_first]:Tsai JM, Nowak RP, Ebert BL, Fischer ES. Targeted protein degradation: from mechanisms to clinic. Nat Rev Mol Cell Biol. 2024;25: 740–757. doi:10.1038/s41580-024-00729-9
