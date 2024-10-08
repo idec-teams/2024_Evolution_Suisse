@@ -89,6 +89,9 @@ hide:
     </div>
 </div>
 
+
+
+
 # Acknowledgements
 
 We would like to express our sincere gratitude to everyone who contributed to the successful completion of this project. We are grateful to Professor Gerald Schwank for providing us with the opportunity to work in his lab and for facilitating access to the resources necessary for this research. Special thanks go to Lukas Schmidheini for his invaluable feedback and guidance throughout the project. We are grateful to Tara Olivia Stoll-Bickel for her help with performing some of the experiments. We also extend our gratitude to Songyuan Zhang for his creative input during the brainstorming and conceptualization phase. We thank our sponsors Dementia Research Switzerland - Synapsis Foundation, University of Zurich UZH, and Neurimmune AG, whose generous financial support made this research possible. 
