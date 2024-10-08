@@ -25,8 +25,18 @@ We are developing a novel approach that exploits the ability of the UPS to more 
 6. Further work towards clinical use of the evolved E3 ligase for Targeted Protein Degradation.
 
 ## Key achievements:
-- We identified promising e3 ligases and targets.
+- We identified promising E3 ligases and targets.
 - We developed an evolutionary logic to evolve these E3 ligases. 
+- We showed that phage propagation depends on the substrate used and the presence of both RNAP subunits.
+- We observed a high background propagation in our system and we came up with possible solutions for the background phage propagation we observed.
+- We successfully drifted SIAH1. 
+
+We also: 
+- We learned the PACE workflow and practiced the setup and operation of the PACE reactor. 
+
+We are currently still working on: 
+- Achieving E3 ligase activity-dependent phage propagation in the selection system.
+- Running PANCE and/or PACE on 
 
 ## References
 [^ubi_first]:Tsai JM, Nowak RP, Ebert BL, Fischer ES. Targeted protein degradation: from mechanisms to clinic. Nat Rev Mol Cell Biol. 2024;25: 740–757. doi:10.1038/s41580-024-00729-9
