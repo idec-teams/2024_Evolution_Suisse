@@ -1,0 +1,1613 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../project/results/">
+      
+      
+        <link rel="next" href="../notebook/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Protocols - iDEC 2024 | Evolution Suisse</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocols" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2024 | Evolution Suisse" class="md-header__button md-logo" aria-label="iDEC 2024 | Evolution Suisse" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2024 | Evolution Suisse
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2024_Evolution_Suisse" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../team/" class="md-tabs__link">
+        
+  
+    
+  
+  Team
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/background/" class="md-tabs__link">
+          
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2024 | Evolution Suisse" class="md-nav__button md-logo" aria-label="iDEC 2024 | Evolution Suisse" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2024 | Evolution Suisse
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2024_Evolution_Suisse" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-information-regarding-the-listed-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      General information regarding the listed protocols
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#golden-gate-cloning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Golden Gate Cloning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gibson-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gibson Assembly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bacterial-transformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bacterial transformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage production
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determination-of-phage-titer-by-plaque-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determination of phage titer by plaque assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determination-of-phage-titer-by-qpcr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determination of phage titer by qPCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#site-directed-mutagenesis-for-substrate-degron-modification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Site-directed mutagenesis for substrate degron modification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-propagation-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage propagation assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-assisted-non-continuous-evolution-pance-to-generate-a-library-of-selection-plasmids-sp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage-assisted non-continuous evolution (PANCE) to generate a library of Selection Plasmids (SP)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-assisted-continuous-evolution-pace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage-assisted continuous evolution (PACE)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phage-assisted continuous evolution (PACE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-pace-reactior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up the PACE reactior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintaining-pace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintaining PACE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-data-analysis-and-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      General data analysis and visualisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysis-of-phage-drift-using-sanger-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analysis of phage drift using Sanger sequencing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../files/lab_notebook_iDEC.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Lab Notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../files/report.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../files/supplement.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Supplimentary Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-information-regarding-the-listed-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      General information regarding the listed protocols
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#golden-gate-cloning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Golden Gate Cloning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gibson-assembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gibson Assembly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bacterial-transformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bacterial transformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage production
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determination-of-phage-titer-by-plaque-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determination of phage titer by plaque assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determination-of-phage-titer-by-qpcr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Determination of phage titer by qPCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#site-directed-mutagenesis-for-substrate-degron-modification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Site-directed mutagenesis for substrate degron modification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-propagation-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage propagation assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-assisted-non-continuous-evolution-pance-to-generate-a-library-of-selection-plasmids-sp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage-assisted non-continuous evolution (PANCE) to generate a library of Selection Plasmids (SP)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phage-assisted-continuous-evolution-pace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phage-assisted continuous evolution (PACE)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Phage-assisted continuous evolution (PACE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-pace-reactior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up the PACE reactior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maintaining-pace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maintaining PACE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-data-analysis-and-visualisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      General data analysis and visualisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analysis-of-phage-drift-using-sanger-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analysis of phage drift using Sanger sequencing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="protocols">Protocols</h1>
+<h2 id="general-information-regarding-the-listed-protocols">General information regarding the listed protocols</h2>
+<ul>
+<li>The enzymes used in the experiments were obtained from New England Biolabs. Protocols and enzyme-specific reaction conditions were followed as provided by the manufacturer if not mentioned otherwise.</li>
+<li>QIAprep Spin Miniprep Kit (Qiagen) was used for plasmid isolation from bacterial cultures, as per the protocol provided by the manufacturer.</li>
+<li>Chemicals used for the preparation of buffers, solutions, and other reagents were purchased from Sigma-Aldrich.</li>
+<li>All DNA fragments for the experiments were codon optimised for <em>E. coli</em>, synthesised and ordered from Twist Bioscience.</li>
+<li>Oligonucleotide primers were ordered from Microsynth. </li>
+</ul>
+<h2 id="golden-gate-cloning">Golden Gate Cloning</h2>
+<p>Golden Gate constructs were assembled using the EcoFlex MoClo kit<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> (Addgene kit #1000000080). This kit comes with level 1 and 2 backbones (see publication for more details).</p>
+<ol>
+<li>Add the following to a PCR tube (use BsaI for level 1 and BsmBI for level 2 assemblies):</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Backbone DNA</td>
+<td>50 ng</td>
+</tr>
+<tr>
+<td>Insert DNA</td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>10 × T4 DNA ligase buffer</td>
+<td>1 μl</td>
+</tr>
+<tr>
+<td>T4 ligase</td>
+<td>0.5 μl</td>
+</tr>
+<tr>
+<td>BsaI / BsmBI</td>
+<td>0.5 μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>fill up to 10 μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Incubate in the thermocycler using the following protocol:</li>
+</ol>
+<p>Level 1 / BsaI</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Nr. of Cycles</th>
+<th>Temperature (ºC)</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Digestion and ligation</td>
+<td>15-30</td>
+<td>37</td>
+<td>10 min</td>
+</tr>
+<tr>
+<td>Annealing</td>
+<td>15-30</td>
+<td>16</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>Final digestion and T4 ligase inactivation</td>
+<td>1</td>
+<td>50</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>Enzyme inactivation</td>
+<td>1</td>
+<td>80</td>
+<td>5 min</td>
+</tr>
+</tbody>
+</table>
+<p>Level 2 / BsmBI</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Nr. of Cycles</th>
+<th>Temperature (ºC)</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initial digestion</td>
+<td>1</td>
+<td>42</td>
+<td>1 h</td>
+</tr>
+<tr>
+<td>Digestion and ligation</td>
+<td>99</td>
+<td>42</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>Annealing</td>
+<td>99</td>
+<td>16</td>
+<td>1 min</td>
+</tr>
+<tr>
+<td>Final digestion</td>
+<td>1</td>
+<td>42</td>
+<td>1h min</td>
+</tr>
+<tr>
+<td>Enzyme inactivation</td>
+<td>1</td>
+<td>80</td>
+<td>15 min</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Try to use smaller vectors containing fewer inserts as reduced protein expression demands may exhibit higher transformation efficiency due to the reduced size and lower metabolic load on the cells.</p>
+<h2 id="gibson-assembly">Gibson Assembly</h2>
+<ol>
+<li>PCR of all inserts and backbones to create appropriate overhangs </li>
+<li>DpnI Digest: add 0.5 μL of DpnI to 25 μL PCR reaction, incubation 15 min at 37°C (to remove the template DNA)</li>
+<li>Gel extraction of the correct PCR products: Follow the protocol of the NucleoSpin Gel and PCR Clean-up kit (Macherey-Nagel)</li>
+<li>Mix 50–100 ng of vector DNA with a molar 2:1 or 1:1 ratio of each insert (see table below) </li>
+<li>Add water and NEBuilider HiFi DNA Assembly Master Mix as indicated below</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th>2-3 Fragment Assembly</th>
+<th>4-6 Fragment Assembly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>molar DNA ratio (vector:insert)</td>
+<td>1:2</td>
+<td>1:1</td>
+</tr>
+<tr>
+<td>total amounts of DNA fragments</td>
+<td>0.03-0.2 pmol</td>
+<td>0.2-0.5 pmol</td>
+</tr>
+<tr>
+<td>NEBuilider HiFi DNA Assembly Master Mix</td>
+<td>2.5 μl</td>
+<td>2.5 μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>fill up to 5 μl</td>
+<td>fill up to 5 μl</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Incubate samples in a thermocycler at 50°C for 60 minutes </li>
+<li>Store samples on ice or at –20°C for subsequent transformation</li>
+</ol>
+<h2 id="bacterial-transformation">Bacterial transformation</h2>
+<p>To test our genetically engineered constructs, we transformed them into bacteria. For single plasmid transformation, <em>E. coli</em> cells were made chemically competent using the Mix &amp; Go <em>E. coli</em> Transformation Kit &amp; Buffer Set (Zymo Research), following the manufacturer's protocol.</p>
+<ol>
+<li>Thaw competent DH5a on ice</li>
+<li>Add 1 μl of plasmid DNA or 5 μL of assembly reaction to 20-50 μl of competent cells</li>
+<li>Flick the tube to mix</li>
+<li>Incubate mixture on ice for 30 minutes</li>
+<li>Heat shock at the bacteria at 42°C for 30 s</li>
+<li>Place on ice for 5 minutes</li>
+<li>Pipette 200 µl of room temperature LB into the mixture</li>
+<li>Incubate at 37°C for 60 minutes while shaking at 750 rpm</li>
+<li>Warm selection plates to 37°C in the incubator</li>
+<li>Spin down bacteria and resuspend in 50 μl LB</li>
+<li>Spread 50-100 μl of cells on LB agar plates containing the antibiotics for selection. When multiple antibiotics are used, use 0.6x of the standard working concentration for each antibiotic.</li>
+<li>Incubate overnight at 37°C</li>
+</ol>
+<p>For co-transformations with two accessory plasmids:
+1. Thaw competent S2060 cells on ice
+2. Pre-mix 200 ng of the two accessory plasmids in an equimolar ratio
+3. Add 50 μl of competent cells
+4. Continue at step 3 above</p>
+<p>Due to the metabolic burden caused by DNA replication and protein expression, co-transformants might grow at a markedly reduced rate.</p>
+<h2 id="phage-production">Phage production</h2>
+<p>The production of our phages started by assembling a plasmid containing all phage genes. Our selection plasmid, containing either SIAH1/2 or unspecific enzymes but lacking essential genes for phage replication was combined with <em>splitC</em> (Addgene #138523) and <em>splitD</em> (Addgene #138521) plasmids using SapI Golden Gate assembly.</p>
+<p><em>Day 1: Golden Gate assembly</em></p>
+<p>Assemble a plasmid containing all phage genes: the selection plasmid, <em>splitC</em> (Addgene #138523) and <em>splitD</em> (Addgene #138521) by mixing the following components in a PCR tube</p>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selection plasmid</td>
+<td>200 ng</td>
+</tr>
+<tr>
+<td><em>SplitC</em></td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td><em>SplitD</em></td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>10 × T4 ligase buffer</td>
+<td>1 μl</td>
+</tr>
+<tr>
+<td>T4 ligase</td>
+<td>0.5 μl</td>
+</tr>
+<tr>
+<td>Sapl1</td>
+<td>0.5 μl</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>fill up to 20 μl</td>
+</tr>
+</tbody>
+</table>
+<p>Incubate in the thermocycler overnight with the following program:</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Nr. of Cycles</th>
+<th>Temperature (ºC)</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Digestion and ligation</td>
+<td>99</td>
+<td>37</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>Annealing</td>
+<td>99</td>
+<td>18</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>Final digestion</td>
+<td>1</td>
+<td>37</td>
+<td>1h min</td>
+</tr>
+<tr>
+<td>Enzyme inactivation</td>
+<td>1</td>
+<td>80</td>
+<td>15 min</td>
+</tr>
+</tbody>
+</table>
+<p><em>Day 2: Transformation</em></p>
+<ol>
+<li>Transform the assembly reaction as explained above</li>
+<li>Thaw competent S2060 cells on ice</li>
+<li>Add 2 µl of the ligation reaction into 50 μl of competent S2208 cells</li>
+<li>Flick the tube to mix</li>
+<li>Incubate mixture on ice for 30 minutes</li>
+<li>Heat shock at the bacteria at 42°C for 30 s</li>
+<li>Place on ice for 5 minutes</li>
+<li>Pipette 200 µl of room temperature LB into the mixture</li>
+<li>Incubate at 37°C while shaking at 750 rpm until bacteria reach saturation</li>
+<li>Warm selection plates to 37°C in the incubator</li>
+<li>Spin down bacteria and resuspend in 50 μl LB</li>
+<li>Spread 50-100 μl of cells on LB agar plates </li>
+<li>Incubate overnight at 37°C</li>
+</ol>
+<p><em>Day 3: Plaque Assay to determine phage titer</em></p>
+<ol>
+<li>Spin down 2 mL (9000 xg, 1 min)</li>
+<li>Transfer supernatant to a new tube and sterilise with a 0.22 µm filter</li>
+<li>Send purified phages for Sanger sequencing with the primer oLS670</li>
+<li>Determine the phage titer with a plaque assay as described below</li>
+<li>Phages can be stored in the fridge for multiple months. If titer gets to low, re-grow in S2208 bacteria again</li>
+</ol>
+<p>Note: it is recommended to do 2 plaque assays. The first assay is to determine if the phage production was succesful. From the first assay plate, one plaque is picked to get monoclonal phages and a second assay is performed to assess the PFU.</p>
+<h2 id="determination-of-phage-titer-by-plaque-assay">Determination of phage titer by plaque assay</h2>
+<ol>
+<li>Spin down your samples at 8'000 xg for 2 min to remove bacteria and other contaminants</li>
+<li>Transfer supernatant to a new tube. Phages can be stored at 4ºC for further use (note that phage titer will gradually decrease over time)</li>
+<li>Dilute a saturated S2208 culture and grow it to an OD<sub>600</sub> of 0.5</li>
+<li>Pour 15 mL LB agar without antibiotics in a Petri dish and let solidify</li>
+<li>Once solidified, mix 2 mL of LB and 2 mL of hot LB agar, add 1 mL of the S2208 culture, vortex quickly, and pour on top of the solidified LB agar. Let solidify for at least 30 min</li>
+<li>Meanwhile, prepare a 10-fold serial dilution of your phage sample (100 to 10-7). Remember to include a phage with a known pfu/mL as a positive control</li>
+<li>Add 4 µL of each dilution onto the top agar. Let the plate sit for 15-30 min before transferring it to the incubator, making sure that the drops do not merge</li>
+<li>Incubate plate overnight (16-20 h) at 37ºC</li>
+<li>The tier of the phage sample can be determined by the following formula: </li>
+</ol>
+<p>titer (in pfu/mL) = (# of plaques) x (dilution factor) x 100 </p>
+<h2 id="determination-of-phage-titer-by-qpcr">Determination of phage titer by qPCR</h2>
+<ol>
+<li>Spin down your samples at 8'000 xg for 2 min to remove bacteria and other contaminants</li>
+<li>Transfer supernatant to a new tube. Phages can be stored at 4ºC for further use (note that phage titer will gradually decrease over time)</li>
+<li>Prepare the qPCR reaction mix as follows:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th>Volume (µL)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FirePol Polymerase</td>
+<td>3</td>
+</tr>
+<tr>
+<td>100 uM Forward Primer*</td>
+<td>0.05</td>
+</tr>
+<tr>
+<td>100 uM Reverse Primer*</td>
+<td>0.05</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>9.9</td>
+</tr>
+</tbody>
+</table>
+<p>*oLS-1662 100 uM and oLS-1663 were used as forward and reverse primers respectively, see <a href="https://idec-teams.github.io/2024_Evolution_Suisse/files/supplement.pdf">Supplementary Table 4</a> for sequences.</p>
+<ol>
+<li>In a qPCR 384-well plate, add 13 µL of qPCR reaction mix to each well, followed by 2 µL of the supernatant of each sample. Perform triplicate measurements for better results</li>
+<li>Cover the plate with an adhesive seal and briefly spin down the plate </li>
+<li>Insert the plate in the qPCR machine (here, we used the LightCycler 480 II from Roche) and program the following settings: </li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Nr. of Cycles</th>
+<th>Temperature (ºC)</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pre-incubation</td>
+<td>1</td>
+<td>95</td>
+<td>12 min</td>
+</tr>
+<tr>
+<td>Denaturation</td>
+<td>45</td>
+<td>95</td>
+<td>15 s</td>
+</tr>
+<tr>
+<td>Annealing</td>
+<td>45</td>
+<td>53</td>
+<td>30 s</td>
+</tr>
+<tr>
+<td>Elongation</td>
+<td>45</td>
+<td>72</td>
+<td>10s</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Set the excitation wavelength to 465 nm and the detection wavelength to 510 nm and start the protocol</li>
+<li>Analyse readout with the software analysis tool “Absolute Quantification/Second Derivative Maximum”</li>
+<li>Threshold cycle (CT) values, which indicate the cycle number at which the fluorescence from the amplifying DNA exceeded a predefined threshold, can be converted to PFU/mL using a previously constructed standard curved. qPCR results with CT &gt; 30 can be considered as absence of phages</li>
+</ol>
+<h2 id="site-directed-mutagenesis-for-substrate-degron-modification">Site-directed mutagenesis for substrate degron modification</h2>
+<ol>
+<li>Prepare a reaction mix in a PCR tube as indicated here (see Report for the corresponding primers):</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th>Ammount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 × Q5 Reaction Buffer</td>
+<td>5 µL</td>
+</tr>
+<tr>
+<td>10 µM Forward Primer</td>
+<td>1.25 µL</td>
+</tr>
+<tr>
+<td>10 µM Reverse Primer</td>
+<td>1.25 µL</td>
+</tr>
+<tr>
+<td>pES1076 template</td>
+<td>100 ng</td>
+</tr>
+<tr>
+<td>Q5 High-Fidelity DNA Polymerase</td>
+<td>0.25 µL</td>
+</tr>
+<tr>
+<td>Nuclease-Free Water</td>
+<td>fill up to 25 µL</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Gently mix the reaction and collect all liquid to the bottom of the tube by briefly spinning it, if necessary
+Set the thermocycler for the following program:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Nr. of Cycles</th>
+<th>Temperature (ºC)</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Initial Denaturation</td>
+<td>1</td>
+<td>98</td>
+<td>30 s</td>
+</tr>
+<tr>
+<td>Denaturation</td>
+<td>30</td>
+<td>30</td>
+<td>5 s</td>
+</tr>
+<tr>
+<td>Annealing</td>
+<td>30</td>
+<td>50-72*</td>
+<td>20 s</td>
+</tr>
+<tr>
+<td>Elongation</td>
+<td>30</td>
+<td>72</td>
+<td>20 s/kb of product</td>
+</tr>
+<tr>
+<td>Final Elongation</td>
+<td>1</td>
+<td>72</td>
+<td>2 min</td>
+</tr>
+</tbody>
+</table>
+<p>*calculate annealing temperature for your pair of primers with the NEB T<sub>m</sub> Calculator</p>
+<ol>
+<li>Treat 1 µL of the PCR reaction with 5 µL of KLD buffer, 1 µL of the KLD Enzyme Mix, and top it with 3 µL of water</li>
+<li>Incubate at room temperature for 5 min</li>
+<li>Transform 2 µL of the KLD reaction into 20 µL of competent cells and plate directly in LB agar with the appropriate antibiotics without recovery</li>
+</ol>
+<h2 id="phage-propagation-assay">Phage propagation assay</h2>
+<ol>
+<li>Transform S2060 cells with the AP(s) of interest (see Transformation)</li>
+<li>Dilute a saturated overnight culture of bacteria 1,000-fold into LB media supplemented with the appropriate antibiotics and grow at 37ºC to OD<sub>600</sub> 0.5</li>
+<li>Aliquote 1 mL of culture into a deep-well plate and infect with phages at a starting titer of 106 pfu/mL. Seal the plate with a breathable membrane.</li>
+<li>Incubate the plate overnight (16-20 h) at 37ºC</li>
+<li>Determine the phage titer by performing a plaque assay (see Determination of phage titer by plaque assay). To calculate fold propagation, divide the final phage titer by the starting titer</li>
+</ol>
+<h2 id="phage-assisted-non-continuous-evolution-pance-to-generate-a-library-of-selection-plasmids-sp">Phage-assisted non-continuous evolution (PANCE) to generate a library of Selection Plasmids (SP)</h2>
+<ol>
+<li>To drift your selection plasmid, you will use a S2060 strain transformed with DP6 plasmid (see Transformation)</li>
+<li>Dilute a saturated overnight bacteria culture in 50 mL LB with appropriate antibiotics and 100 mM glucose, and grow it to an OD<sub>600</sub> of 0.5</li>
+<li>Add arabinose to a final concentration of 40 mM. This will induce the expression of the mutagenesis machinery.</li>
+<li>Immediately after, infect your culture with phages containing the SP you want to drift to a final concentration of 104 pfu/mL</li>
+<li>Incubate the flask at 37ºC, shaking at 250 rpm, overnight (16-20 h)</li>
+<li>The following day, determine the phage titer using qPCR (see Determination of phage titer by qPCR)</li>
+<li>Initiate the next round of drift by repeating steps 2 to 6. Infect the fresh culture with the phages that propagated overnight and whose titer you determined by qPCR</li>
+</ol>
+<h2 id="phage-assisted-continuous-evolution-pace">Phage-assisted continuous evolution (PACE)</h2>
+<h3 id="setting-up-the-pace-reactior">Setting up the PACE reactior</h3>
+<ol>
+<li>Autoclave all parts (media bottle, tubing with adaptors, glass bottles with correct stir bar for Chemostat and lagoon). Close any openings with aluminium foil and secure the foil with tape. Autoclave LB with Tube already inserted.</li>
+<li>Inoculate 30 mL LB with bacteria (correct stringency, correct media depending on strain), grow to OD<sub>600</sub> of 0.6 (takes about 8 h). Bacteria can be stored in the fridge overnight.</li>
+<li>Important: Work in sterile conditions when assembling the reactor to avoid contaminations. All components should be either autoclaved or sterile already.</li>
+<li>Add antibiotics/inducers etc. to media bottle</li>
+<li>Set up hardware: connect tubing and insert tubes into pump, connect waste and media bottles (see figure). Make sure the orientation of the tubing in the pumps is correct.</li>
+</ol>
+<figure>
+<p><a class="glightbox" href="https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Figure_tubing" src="https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_1.png" /></a></p>
+<figcaption> Set up of the PACE reactor.
+</figcaption>
+</figure>
+<ol>
+<li>Prepare glass bottle for chemostat (transfer 30 mL of liquid culture grown the day before). Mark the liquid level with a pen on the bottle.</li>
+<li>Insert the three needles in the lagoon</li>
+<li>Waste: insert it at the edge. It should touch the liquid surface and put it against the glass wall</li>
+<li>Fresh media: should be inserted at the centre, higher than the waste needle</li>
+<li>Air: only insert it a bit (highest needle), connect a sterile filter on the outside.</li>
+</ol>
+<figure>
+<p><a class="glightbox" href="https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Figure_tubing" src="https://idec-teams.github.io/2024_Evolution_Suisse/img/PACE_related_schematics/PACE_protocol_2.png" /></a></p>
+<figcaption> Media and waste tubing in the lagoon of the PACE reactor.
+</figcaption>
+</figure>
+<ol>
+<li>Run Chemostat until the correct OD is reached. (e.g. overnight)</li>
+<li>Set up lagoon:<ul>
+<li>add phages (the titer should be around CT = 25).</li>
+<li>Connect lagoon to chemostat: Tubing to and from lagoon, Lagoon waste</li>
+</ul>
+</li>
+<li>Insert the three needles in the chemostat and one in the lagoon<ul>
+<li>Tubing from chemostat to lagoon: The needle in the chemostat should be inserted all the way (lowest needle) to ensure that there are always bacteria flowing to the reactor whereas the needle in the lagoon should not touch the liquid surface.</li>
+<li>Lagoon to waste: insert it at the edge. It should touch the liquid surface and put it against the glass wall (at 8 mL mark).</li>
+<li>Lagoon to air: only insert it a bit (highest needle), connect a sterile filter on the outside.</li>
+</ul>
+</li>
+<li>Connect Arabinose: fill syringe with Arabinose, attach a sterile filter to the tip &amp; attach it to the tubing (in front of the pump 3).</li>
+<li>Start PACE. Without arabinose until the lagoon is filled, then start arabinose flow.</li>
+</ol>
+<h3 id="maintaining-pace">Maintaining PACE</h3>
+<p>The reactor needs to be checked every day to make sure PACE is running smoothly.
+1. Check medium, waste and arabinose levels. Replace if necessary.
+2. Determine phage titer by qPCR every 12-24 h 
+3. Check that the reactor is running properly:
+   * Check that stirring bars are stirring and that turbidostat is warm (should be 37°C)
+   * Check medium consumption since the last night
+   * Check amount of disposed lagoon waste from the last night
+7. Mark new levels of medium and lagoon waste</p>
+<h2 id="data-analysis">Data analysis</h2>
+<h3 id="general-data-analysis-and-visualisation">General data analysis and visualisation</h3>
+<p>Raw data and code used to analyse it are available on a public <a href="https://github.com/Student-Biolab-Zurich/idec2024-data-analysis">GitHub repository</a>.</p>
+<h3 id="analysis-of-phage-drift-using-sanger-sequencing">Analysis of phage drift using Sanger sequencing</h3>
+<p>Data were analysed and visualised using R Statistical Software v4.4.1<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Sanger sequencing result files were processed using the sangerseqR package v1.40.0<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. For each nucleotide position, the fraction of mutated signal was calculated as the ratio of the maximum peak amplitude for each non-called base to the total peak amplitudes within the respective base-calling window. To account for signal degradation commonly observed at the extremities of Sanger sequencing reads, only positions between 50 and 650 were considered.</p>
+<h2 id="references">References</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Moore SJ, Lai H-E, Kelwick RJR, Chee SM, Bell DJ, Polizzi KM, et al. EcoFlex: A multifunctional MoClo kit for E. coli synthetic biology. ACS Synth Biol. 2016;5: 1059–1069. doi:10.1021/acssynbio.6b00031&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Komelj J. R Core team: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna. In: Scientific Research [Internet]. 2023 [cited 1 Oct 2024]. Available: https://www.scirp.org/reference/referencespapers?referenceid=3582659&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Hill JT, Demarest BL, Bisgrove BW, Su Y-C, Smith M, Yost HJ. Poly peak parser: Method and software for identification of unknown indels using sanger sequencing of polymerase chain reaction products. Dev Dyn. 2014;243: 1632–1636. doi:10.1002/dvdy.24183&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
